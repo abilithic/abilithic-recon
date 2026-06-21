@@ -5,6 +5,7 @@
 # 🛡️ Abilithic Recon
 
 ### Attack Surface Intelligence Engine — *reveal everything exposed before attackers do.*
+#### 💻 Developed by [Abil Khosim - Cybersecurity Spesialist](https://www.linkedin.com/in/abil-khosim-itsec/)
 
 Discover a domain's subdomains, see which are alive, where they're hosted, what
 they run, and which look like **Shadow IT** — then get fix recommendations.
@@ -15,6 +16,7 @@ they run, and which look like **Shadow IT** — then get fix recommendations.
 [![Python](https://img.shields.io/badge/python-3.11%2B-3776ab.svg)]()
 [![Build](https://img.shields.io/github/actions/workflow/status/abilithic/abilithic-recon/build.yml)]()
 [![Release](https://img.shields.io/github/v/release/abilithic/abilithic-recon)](../../releases)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abil%20Khosim-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abil-khosim-itsec/)
 
 [⬇️ Download](#-installation) · [✨ Features](#-key-features) · [📖 Usage](#-how-to-use) · [⚙️ How it works](#-how-it-works) · [⚠️ Disclaimer](DISCLAIMER.md)
 
