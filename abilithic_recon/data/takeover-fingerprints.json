@@ -1,0 +1,62 @@
+[
+  {
+    "service": "GitHub Pages",
+    "cname": ["github.io"],
+    "fingerprint": ["There isn't a GitHub Pages site here", "For root URLs (like http://example.com/) you must provide an index.html file"],
+    "references": ["https://github.com/EdOverflow/can-i-take-over-xyz"]
+  },
+  {
+    "service": "Amazon S3",
+    "cname": ["s3.amazonaws.com", "amazonaws.com"],
+    "fingerprint": ["The specified bucket does not exist", "NoSuchBucket"],
+    "references": ["https://github.com/EdOverflow/can-i-take-over-xyz"]
+  },
+  {
+    "service": "Heroku",
+    "cname": ["herokuapp.com", "herokudns.com"],
+    "fingerprint": ["No such app", "herokucdn.com/error-pages/no-such-app.html"],
+    "references": ["https://github.com/EdOverflow/can-i-take-over-xyz"]
+  },
+  {
+    "service": "Microsoft Azure",
+    "cname": ["azurewebsites.net", "cloudapp.net", "trafficmanager.net", "azureedge.net"],
+    "fingerprint": ["404 Web Site not found"],
+    "references": ["https://github.com/EdOverflow/can-i-take-over-xyz"]
+  },
+  {
+    "service": "Fastly",
+    "cname": ["fastly.net"],
+    "fingerprint": ["Fastly error: unknown domain"],
+    "references": ["https://github.com/EdOverflow/can-i-take-over-xyz"]
+  },
+  {
+    "service": "GitLab Pages",
+    "cname": ["gitlab.io"],
+    "fingerprint": ["The page you're looking for could not be found"],
+    "references": ["https://github.com/EdOverflow/can-i-take-over-xyz"]
+  },
+  {
+    "service": "Shopify",
+    "cname": ["myshopify.com"],
+    "fingerprint": ["Sorry, this shop is currently unavailable", "Only one step left!"],
+    "references": ["https://github.com/EdOverflow/can-i-take-over-xyz"]
+  },
+  {
+    "service": "Surge.sh",
+    "cname": ["surge.sh"],
+    "fingerprint": ["project not found"],
+    "references": ["https://github.com/EdOverflow/can-i-take-over-xyz"]
+  },
+  {
+    "service": "Pantheon",
+    "cname": ["pantheonsite.io"],
+    "fingerprint": ["The gods are wise, but do not know of the site which you seek"],
+    "references": ["https://github.com/EdOverflow/can-i-take-over-xyz"]
+  },
+  {
+    "service": "Tumblr",
+    "cname": ["domains.tumblr.com"],
+    "fingerprint": ["Whatever you were looking for doesn't currently exist at this address"],
+    "references": ["https://github.com/EdOverflow/can-i-take-over-xyz"]
+  }
+]

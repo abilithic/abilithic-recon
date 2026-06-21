@@ -1,0 +1,4 @@
+PySide6>=6.6.0
+requests>=2.31.0
+dnspython>=2.4.0
+geoip2>=4.7.0

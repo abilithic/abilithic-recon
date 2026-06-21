@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.spec.bak
+
+# PyInstaller runtime
+*.manifest
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# App data / local results
+results/
+*.log
+
+# GeoIP databases (do not commit large/licensed DBs)
+abilithic_recon/data/geoip/*.mmdb
