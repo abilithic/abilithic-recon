@@ -5,7 +5,7 @@
 # 🛡️ Abilithic Recon
 
 ### Attack Surface Intelligence Engine — *reveal everything exposed before attackers do.*
-#### 💻 Developed by [Abil Khosim - Cybersecurity Spesialist](https://www.linkedin.com/in/abil-khosim-itsec/)
+#### 💻 Developed by [Abil Khosim - Cybersecurity Specialist](https://www.linkedin.com/in/abil-khosim-itsec/)
 
 Discover a domain's subdomains, see which are alive, where they're hosted, what
 they run, and which look like **Shadow IT** — then get fix recommendations.
@@ -191,4 +191,19 @@ you own or are permitted to test. See [DISCLAIMER.md](DISCLAIMER.md).
 subdomain-enumeration, attack-surface, shadow-it, subdomain-takeover, dns,
 certificate-transparency, pentesting, blue-team, windows, desktop-app, pyside6,
 python, no-api -->
-<div align="center"><sub>Built with ❤️ by <b>Abilithic</b> — Security, built like stone.</sub></div>
+---
+
+<div align="center">
+
+### 👤 Developed by **Abil Khosim**
+**Cybersecurity Specialist**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abil%20Khosim-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abil-khosim-itsec/)
+
+*Abilithic Recon* is an original project by Abil Khosim.
+Released under the [MIT License](LICENSE) — © 2026 Abil Khosim. Please keep this
+attribution when reusing or redistributing.
+
+<sub>Security, built like stone. 🛡️</sub>
+
+</div>

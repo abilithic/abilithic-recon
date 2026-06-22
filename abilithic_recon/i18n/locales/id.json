@@ -2,22 +2,18 @@
   "app.subtitle": "Attack Surface Intelligence Engine",
   "input.placeholder": "Masukkan domain, mis. example.com",
   "input.label": "Domain target",
-
   "btn.scan": "Mulai Scan",
   "btn.cancel": "Batalkan",
   "btn.export": "Ekspor",
-
   "mode.label": "Mode",
   "mode.passive": "Passive (aman)",
   "mode.full": "Full (aktif)",
   "lang.label": "Bahasa",
-
   "card.subdomains": "Subdomain",
   "card.alive": "Aktif",
   "card.highrisk": "Risiko Tinggi",
   "card.shadow": "Shadow IT",
   "card.risk": "Skor Risiko",
-
   "col.subdomain": "Subdomain",
   "col.resolve": "DNS",
   "col.live": "Status",
@@ -26,7 +22,6 @@
   "col.tech": "Teknologi",
   "col.tls": "TLS (hari)",
   "col.severity": "Risiko",
-
   "detail.title": "Detail Aset",
   "detail.select": "Pilih satu baris untuk melihat detailnya.",
   "detail.sources": "Ditemukan via",
@@ -36,7 +31,6 @@
   "detail.fingerprint": "Teknologi",
   "detail.findings": "Temuan & Saran",
   "detail.none": "Tidak ada",
-
   "menu.file": "Berkas",
   "menu.newscan": "Scan Baru",
   "menu.open": "Buka Hasil (.json)",
@@ -60,7 +54,6 @@
   "menu.disclaimer": "Disclaimer",
   "menu.updates": "Cek Pembaruan",
   "menu.about": "Tentang",
-
   "hint.domain": "Ketik nama domain yang ingin dianalisis (tanpa http://). Contoh: example.com",
   "hint.scan": "Mulai memetakan attack surface domain ini.",
   "hint.cancel": "Hentikan proses scan yang sedang berjalan. Hasil sementara tetap ditampilkan.",
@@ -80,7 +73,6 @@
   "hint.disclaimer": "Ketentuan penggunaan yang sah & etis.",
   "hint.updates": "Periksa apakah ada versi terbaru.",
   "hint.about": "Informasi versi & kredit aplikasi.",
-
   "phase.domain_intel": "Mengumpulkan info domain",
   "phase.wildcard": "Memeriksa wildcard DNS",
   "phase.enumeration": "Mencari subdomain",
@@ -88,13 +80,11 @@
   "phase.probe": "Mengecek host aktif",
   "phase.geo": "Geolokasi",
   "phase.analysis": "Analisis risiko",
-
   "status.idle": "Siap",
   "status.running": "Memproses...",
   "status.cancelling": "Membatalkan...",
   "status.done": "Selesai",
   "status.error": "Terjadi kesalahan",
-
   "log.domain_intel": "Mengambil DNS, RDAP, dan sertifikat domain utama.",
   "log.wildcard": "Wildcard DNS terdeteksi - hasil brute force akan difilter.",
   "log.source": "Menjalankan sumber: {name}",
@@ -102,26 +92,20 @@
   "log.capped": "Jumlah aset dibatasi ke {n} untuk menjaga performa.",
   "log.found": "Ditemukan {n} kandidat subdomain unik.",
   "log.cancelled": "Scan dibatalkan oleh pengguna.",
-
   "wildcard.banner": "Wildcard DNS terdeteksi pada domain ini. Subdomain dari brute force yang hanya menunjuk IP wildcard ditandai (WILDCARD_FILTERED).",
-
   "empty.title": "Belum ada hasil",
   "empty.body": "Masukkan domain di atas lalu klik Mulai Scan.",
-
   "export.success": "Tersimpan: {path}",
   "export.fail": "Gagal menyimpan: {err}",
   "err.invalid_domain": "Domain tidak valid. Contoh yang benar: example.com",
   "err.busy": "Scan sedang berjalan. Batalkan dulu sebelum memulai yang baru.",
-
   "dialog.consent.title": "Konfirmasi Otorisasi - Mode Full",
   "dialog.consent.body": "Mode Full melakukan teknik aktif (brute force DNS, pengecekan HTTP/HTTPS) terhadap target. Lakukan ini HANYA pada domain milik Anda atau yang telah memberi izin tertulis.",
   "dialog.consent.check": "Saya berwenang untuk men-scan domain ini.",
   "dialog.consent.ok": "Lanjutkan",
   "dialog.consent.cancel": "Batal",
-
   "dialog.about.body": "Abilithic Recon v{version}\nAttack Surface Intelligence Engine\n\nSumber publik tanpa API key. Untuk penggunaan yang sah & edukasi.\nLisensi MIT. (c) Abilithic.",
   "disclaimer.text": "Abilithic Recon dibuat untuk pengujian keamanan yang sah dan tujuan edukasi pada sistem/aset milik Anda sendiri atau yang telah memberi izin. Penyalahgunaan adalah tanggung jawab pengguna.",
-
   "finding.shadow.title": "Indikasi Shadow IT",
   "finding.shadow.detail": "Subdomain aktif '{host}' memakai pola nama berisiko ({kw}) dan mungkin tidak terdokumentasi resmi.",
   "finding.shadow.rec": "Tinjau kepemilikan aset ini. Jika tidak dipakai, hapus dari DNS. Jika dev/staging, batasi akses (VPN/auth).",
@@ -142,5 +126,7 @@
   "finding.spf.rec": "Tambahkan record SPF untuk mengurangi risiko pemalsuan email.",
   "finding.dmarc.title": "DMARC Tidak Ditemukan",
   "finding.dmarc.detail": "Domain '{domain}' tidak memiliki kebijakan DMARC.",
-  "finding.dmarc.rec": "Terapkan kebijakan DMARC (mulai p=none untuk monitoring, lalu tingkatkan)."
+  "finding.dmarc.rec": "Terapkan kebijakan DMARC (mulai p=none untuk monitoring, lalu tingkatkan).",
+  "about.devby": "Dikembangkan oleh",
+  "about.license": "Lisensi MIT — sumber publik tanpa API key."
 }

@@ -26,6 +26,14 @@ from .worker import ScanWorker
 from .table_model import AssetTableModel, AssetProxy, COLUMNS
 
 
+# --- Authorship (kept here AND in EXE version metadata + LICENSE) ---
+AUTHOR = "Abil Khosim"
+AUTHOR_TITLE = "Cybersecurity Specialist"
+LINKEDIN_URL = "https://www.linkedin.com/in/abil-khosim-itsec/"
+LINKEDIN_HANDLE = "abil-khosim-itsec"
+COPYRIGHT_YEAR = "2026"
+
+
 def _logo_pixmap(size: int) -> QPixmap:
     for rel in ("assets/abilithic-icon-256.png", "assets/abilithic-icon-1024.png",
                 "assets/abilithic-mark-256.png"):
@@ -556,8 +564,33 @@ class MainWindow(QMainWindow):
         QMessageBox.information(self, self.tr("menu.disclaimer"), self.tr("disclaimer.text"))
 
     def show_about(self):
-        QMessageBox.about(self, self.tr("menu.about"),
-                          self.tr("dialog.about.body").format(version=__version__))
+        t = self.tr
+        dlg = QDialog(self)
+        dlg.setWindowTitle(t("menu.about"))
+        lay = QVBoxLayout(dlg)
+        head = QHBoxLayout()
+        pm = _logo_pixmap(56)
+        if not pm.isNull():
+            lg = QLabel(); lg.setPixmap(pm); head.addWidget(lg)
+        ttl = QLabel(f"<b style='font-size:16px'>{__app_name__}</b><br>"
+                     f"<span style='color:{MUTED}'>v{__version__} &mdash; {E(t('app.subtitle'))}</span>")
+        head.addWidget(ttl); head.addStretch(1)
+        lay.addLayout(head)
+        body = QLabel(
+            f"<p>{E(t('about.devby'))} <b>{AUTHOR}</b><br>"
+            f"<span style='color:{MUTED}'>{AUTHOR_TITLE}</span></p>"
+            f"<p>LinkedIn: <a href='{LINKEDIN_URL}' style='color:{ACCENT}'>{LINKEDIN_HANDLE}</a></p>"
+            f"<p style='color:{MUTED}'>{E(t('about.license'))}<br>"
+            f"&copy; {COPYRIGHT_YEAR} {AUTHOR}. All rights reserved.</p>")
+        body.setOpenExternalLinks(True)
+        body.setWordWrap(True)
+        body.setTextFormat(Qt.RichText)
+        lay.addWidget(body)
+        bb = QDialogButtonBox(QDialogButtonBox.Ok)
+        bb.accepted.connect(dlg.accept)
+        lay.addWidget(bb)
+        dlg.setMinimumWidth(440)
+        dlg.exec()
 
     def closeEvent(self, event):
         if self.worker and self.worker.isRunning():

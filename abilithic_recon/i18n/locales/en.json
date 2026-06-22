@@ -2,22 +2,18 @@
   "app.subtitle": "Attack Surface Intelligence Engine",
   "input.placeholder": "Enter a domain, e.g. example.com",
   "input.label": "Target domain",
-
   "btn.scan": "Start Scan",
   "btn.cancel": "Cancel",
   "btn.export": "Export",
-
   "mode.label": "Mode",
   "mode.passive": "Passive (safe)",
   "mode.full": "Full (active)",
   "lang.label": "Language",
-
   "card.subdomains": "Subdomains",
   "card.alive": "Alive",
   "card.highrisk": "High Risk",
   "card.shadow": "Shadow IT",
   "card.risk": "Risk Score",
-
   "col.subdomain": "Subdomain",
   "col.resolve": "DNS",
   "col.live": "Status",
@@ -26,7 +22,6 @@
   "col.tech": "Technology",
   "col.tls": "TLS (days)",
   "col.severity": "Risk",
-
   "detail.title": "Asset Details",
   "detail.select": "Select a row to see its details.",
   "detail.sources": "Found via",
@@ -36,7 +31,6 @@
   "detail.fingerprint": "Technology",
   "detail.findings": "Findings & Recommendations",
   "detail.none": "None",
-
   "menu.file": "File",
   "menu.newscan": "New Scan",
   "menu.open": "Open Result (.json)",
@@ -60,7 +54,6 @@
   "menu.disclaimer": "Disclaimer",
   "menu.updates": "Check for Updates",
   "menu.about": "About",
-
   "hint.domain": "Type the domain you want to analyze (no http://). Example: example.com",
   "hint.scan": "Start mapping this domain's attack surface.",
   "hint.cancel": "Stop the running scan. Partial results are kept on screen.",
@@ -80,7 +73,6 @@
   "hint.disclaimer": "Authorized & ethical use terms.",
   "hint.updates": "Check whether a newer version is available.",
   "hint.about": "App version & credits.",
-
   "phase.domain_intel": "Gathering domain info",
   "phase.wildcard": "Checking wildcard DNS",
   "phase.enumeration": "Finding subdomains",
@@ -88,13 +80,11 @@
   "phase.probe": "Probing live hosts",
   "phase.geo": "Geolocation",
   "phase.analysis": "Risk analysis",
-
   "status.idle": "Ready",
   "status.running": "Working...",
   "status.cancelling": "Cancelling...",
   "status.done": "Done",
   "status.error": "An error occurred",
-
   "log.domain_intel": "Fetching DNS, RDAP, and the apex certificate.",
   "log.wildcard": "Wildcard DNS detected - brute-force results will be filtered.",
   "log.source": "Running source: {name}",
@@ -102,26 +92,20 @@
   "log.capped": "Asset count capped to {n} to preserve performance.",
   "log.found": "Found {n} unique subdomain candidates.",
   "log.cancelled": "Scan cancelled by user.",
-
   "wildcard.banner": "Wildcard DNS detected on this domain. Brute-forced subdomains pointing only to wildcard IPs are flagged (WILDCARD_FILTERED).",
-
   "empty.title": "No results yet",
   "empty.body": "Enter a domain above and click Start Scan.",
-
   "export.success": "Saved: {path}",
   "export.fail": "Failed to save: {err}",
   "err.invalid_domain": "Invalid domain. Correct example: example.com",
   "err.busy": "A scan is running. Cancel it before starting a new one.",
-
   "dialog.consent.title": "Authorization Confirmation - Full Mode",
   "dialog.consent.body": "Full mode performs active techniques (DNS brute force, HTTP/HTTPS checks) against the target. Do this ONLY on domains you own or have written permission to test.",
   "dialog.consent.check": "I am authorized to scan this domain.",
   "dialog.consent.ok": "Continue",
   "dialog.consent.cancel": "Cancel",
-
   "dialog.about.body": "Abilithic Recon v{version}\nAttack Surface Intelligence Engine\n\nPublic sources, no API keys. For authorized & educational use.\nMIT License. (c) Abilithic.",
   "disclaimer.text": "Abilithic Recon is built for authorized security testing and educational use on systems/assets you own or have permission to test. Misuse is the user's responsibility.",
-
   "finding.shadow.title": "Shadow IT Indication",
   "finding.shadow.detail": "Live subdomain '{host}' uses a risky naming pattern ({kw}) and may be undocumented.",
   "finding.shadow.rec": "Review ownership. If unused, remove from DNS. If dev/staging, restrict access (VPN/auth).",
@@ -142,5 +126,7 @@
   "finding.spf.rec": "Add an SPF record to reduce email spoofing risk.",
   "finding.dmarc.title": "DMARC Not Found",
   "finding.dmarc.detail": "Domain '{domain}' has no DMARC policy.",
-  "finding.dmarc.rec": "Deploy a DMARC policy (start with p=none for monitoring, then tighten)."
+  "finding.dmarc.rec": "Deploy a DMARC policy (start with p=none for monitoring, then tighten).",
+  "about.devby": "Developed by",
+  "about.license": "MIT License — public sources, no API keys."
 }

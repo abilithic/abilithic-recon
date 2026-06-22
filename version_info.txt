@@ -1,0 +1,32 @@
+# UTF-8 PyInstaller version-info resource. Embeds authorship into the .exe.
+# Visible via: right-click AbilithicRecon.exe -> Properties -> Details.
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0),
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        '040904B0',
+        [
+          StringStruct('CompanyName', 'Abil Khosim'),
+          StringStruct('FileDescription', 'Abilithic Recon - Attack Surface Intelligence Engine'),
+          StringStruct('FileVersion', '1.0.0.0'),
+          StringStruct('InternalName', 'AbilithicRecon'),
+          StringStruct('LegalCopyright', 'Copyright (c) 2026 Abil Khosim. https://www.linkedin.com/in/abil-khosim-itsec/'),
+          StringStruct('OriginalFilename', 'AbilithicRecon.exe'),
+          StringStruct('ProductName', 'Abilithic Recon'),
+          StringStruct('ProductVersion', '1.0.0.0'),
+          StringStruct('Comments', 'Developed by Abil Khosim - Cybersecurity Specialist. Original work; please retain attribution.'),
+        ])
+    ]),
+    VarFileInfo([VarStruct('Translation', [1033, 1200])])
+  ]
+)
