@@ -5,7 +5,7 @@
 # 🛡️ Abilithic Recon
 
 ### Attack Surface Intelligence Engine — *reveal everything exposed before attackers do.*
-#### 💻 Developed by [Abil Khosim - Cybersecurity Specialist](https://www.linkedin.com/in/abil-khosim-itsec/)
+
 
 Discover a domain's subdomains, see which are alive, where they're hosted, what
 they run, and which look like **Shadow IT** — then get fix recommendations.
